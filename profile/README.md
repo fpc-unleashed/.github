@@ -1,12 +1,19 @@
-## Hi there 👋
+<p align="center">
+  <img height="320" src="https://github.com/user-attachments/assets/66089ca0-96b9-45e3-a423-0261b2ff7ba1" />
+</p>
 
-<!--
+# FPC Unleashed
 
-**Here are some ideas to get you started:**
+A fork of the Free Pascal Compiler that adds modern language features behind opt-in modeswitches. Inline variables, pattern matching, tuples, `defer` / `autofree`, flexible arrays, multiline strings, RTTI stripping, and more.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Existing FPC / Lazarus code compiles unchanged - new features turn on per file with `{$mode unleashed}` or per feature with a specific `{$modeswitch}`.
+
+## Repos
+
+- **[freepascal](https://github.com/fpc-unleashed/freepascal)** - compiler and runtime
+- **[lazarus](https://github.com/fpc-unleashed/lazarus)** - companion fork of the Lazarus IDE
+- **[installer](https://github.com/fpc-unleashed/installer)** - bundle installer for compiler, RTL, and IDE
+
+## Documentation
+
+Per-feature pages with grammar, examples, and modeswitch info: [`unleashed/docs/README.md`]([https://github.com/fpc-unleashed/freepascal/tree/main/unleashed/docs](https://github.com/fpc-unleashed/freepascal/blob/main/unleashed/docs/README.md)).
